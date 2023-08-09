@@ -11,3 +11,6 @@ export const REDIS_CONFIG = {
   port: parseInt(port, 10),
   password,
 };
+
+// 会话超时时间 (默认7天)
+export const SESSION_EXPIRES = +(process.env.SESSION_EXPIRES ?? '604800');

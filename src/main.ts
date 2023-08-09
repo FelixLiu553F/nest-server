@@ -6,3 +6,7 @@ async function bootstrap() {
   await app.listen(3000);
 }
 bootstrap();
+
+// TODO 全球化
+// TODO logging
+// TODO file upload
